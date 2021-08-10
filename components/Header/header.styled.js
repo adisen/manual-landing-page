@@ -14,38 +14,14 @@ export const StyledHeader = styled.section`
 
 export const StyledHeaderContent = styled.div`
   margin: auto 0;
-  margin-top: 5%;
-  /* display: flex; */
-  flex-direction: column;
-  align-self: center;
-  justify-self: center;
+  margin-top: 10vh;
   color: ${({ theme }) => theme.colors.pineGreen};
   width: 50%;
-
-  @media screen and (max-width: 1200px) {
-    width: 80%;
-  }
-
-  @media screen and (max-width: 480px) {
-    width: 100%;
-  }
 
   h1 {
     font-size: 82px;
     text-transform: uppercase;
     margin-bottom: 22px;
-
-    @media screen and (max-width: 1200px) {
-      font-size: 70px;
-    }
-
-    @media screen and (max-width: 680px) {
-      font-size: 60px;
-    }
-
-    @media screen and (max-width: 480px) {
-      font-size: 55px;
-    }
   }
 
   p {
@@ -54,10 +30,6 @@ export const StyledHeaderContent = styled.div`
     letter-spacing: normal;
     margin-bottom: 38px;
     width: 65%;
-
-    @media screen and (max-width: 480px) {
-      width: 100%;
-    }
   }
 
   button {
@@ -72,5 +44,48 @@ export const StyledHeaderContent = styled.div`
     text-transform: uppercase;
     letter-spacing: 2.4px;
     cursor: pointer;
+  }
+
+  @media screen and (min-width: 1400px) {
+    margin-top: 15vh;
+    h1 {
+      font-size: 100px;
+    }
+
+    p {
+      font-size: 25px;
+    }
+
+    button {
+      width: 230px;
+      height: 55px;
+      font-size: 15px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    width: 80%;
+
+    h1 {
+      font-size: 70px;
+    }
+  }
+
+  @media screen and (max-width: 680px) {
+    h1 {
+      font-size: 60px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 100%;
+
+    h1 {
+      font-size: 55px;
+    }
+
+    p {
+      width: 100%;
+    }
   }
 `
