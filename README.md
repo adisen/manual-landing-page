@@ -1,15 +1,34 @@
-# Manual.co Frontend Assignment
+# Manual Landing Page
 
-As part of the hiring process, we ask all our candidates to complete an assignment, in order for
-us to assess their coding skills and way of thought. Ideally, we’d like to see how comfortable you
-are with NextJS, but if you prefer you can complete the assignment in plain React if that is more
-convenient for you.
+## Setup
 
-We estimate it will take you close to 1 full work day to complete it. To allow for flexibility in your
-time, you will have 1 full week from the day this assignment was given to you to complete it.
-You will need to make decisions as part of the implementation. There is not, strictly, a correct or
-wrong choice to these decisions; all are good, as long as you can explain why. We look forward
-to meeting in person and having this discussion after you have completed your assignment.
+Follow and run the following commands to run the application locally.
+
+1. Clone to local machine
+
+```bash
+   :~$ git clone git@github.com:adisen/manual-landing-page.git
+```
+
+2. Navigate to the directory
+
+```bash
+   :~$ cd manual-landing-page
+```
+
+3. Install dependencies
+
+```bash
+   :~$ yarn install
+```
+
+4. Run in development
+
+```bash
+   :~$ yarn dev
+```
+
+## About the Project
 
 ### The business case
 
